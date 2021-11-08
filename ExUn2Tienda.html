@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ExUn2Tienda.css">
+    <script src="ExUn2Tienda.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kulim+Park&display=swap" rel="stylesheet">
+    <title>Tienda compra y venta</title>
+</head>
+<body>
+    <p id="nombrepag">HardSoft</p>
+    <p id="subtitulopag">Tienda electronica</p>
+    <table id="tablaproductos" align="center">
+        <tr>
+            <th>Producto</th>
+            <th>Tipo</th>
+            <th>Marca</th>
+            <th>Precio</th>
+            <th>Agregar al carro</th>
+        </tr>
+        <tr>
+            <td id="objeto1">Teclado inalambrico</td>
+            <td id="numero1">Hardware</td>
+            <td>Lenovo Ideapad</td>
+            <td>$140</td>
+            <td><button onclick="agrecarro1()" id="boton1">+</button></td>
+        </tr>
+        <tr>
+            <td id="objeto2">Raton inalambrico</td>
+            <td id="numero2">Hardware</td>
+            <td>Dell</td>
+            <td>$675</td>
+            <td><button onclick="agrecarro2()" id="boton2">+</button></td>
+        </tr>
+        <tr>
+            <td id="objeto3">Office Proffesional Plus 2019</td>
+            <td id="numero3">Software</td>
+            <td>Microsoft</td>
+            <td>$198</td>
+            <td><button onclick="agrecarro3()" id="boton3">+</button></td>
+        </tr>
+        <tr>
+            <td id="objeto4">Windows 10 Pro</td>
+            <td id="numero4">Software</td>
+            <td>Microsoft</td>
+            <td>$2800</td>
+            <td><button onclick="agrecarro4()" id="boton4">+</button></td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <table id="tablacarro">
+        <tr>
+            <th>Carro</th>
+        </tr>
+        <tr>
+            <td>Seleccionados</td>
+            <td>Cantidad</td>
+        </tr>
+        <tr class="lista">
+            <td>Hardware</td>
+            <td><p id="uno">0</p></td>
+        </tr>
+        <tr class="lista">
+            <td>Software</td>
+            <td><p id="dos">0</p></td>
+        </tr>
+        <tr>
+            <td><input id="boton5" type="button" value="Calcular" onclick="calcular"></td>
+            <td><p id="resultado"></p></td>
+        </tr>
+    </table>
+    
+</body>
+</html>
