@@ -24,6 +24,7 @@ function agrecarro2() {
         total.push(los3);
     }
 }
+
 function agrecarro3(){
     var botonElement = document.getElementById("boton3");
     var pElement = document.getElementById("dos");
@@ -60,6 +61,5 @@ function calcular() {
     for (let index = 0; index < total.length; index++) {
         sum += total[index];
     }
-
     document.getElementById("resultado").value = sum;
 }
