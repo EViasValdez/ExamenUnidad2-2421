@@ -1,20 +1,20 @@
-body{
+body {
     background: linear-gradient(281deg, rgba(71,15,15,1) 0%, rgba(157,7,7,1) 100%);;
 }
-#nombrepag{
+#nombrepag {
     text-align: center;
     font-size: 82px;
     font-family: "Secular One";
     font-weight: bolder;
     color:rgb(255, 255, 255);
 }
-#subtitulopag{
+#subtitulopag {
     text-align: center;
     font-size: 24px;
     font-family: "Kulim Park";
     color:rgb(255, 255, 255);
 }
-#tablaproductos{
+#tablaproductos {
     text-align: center;
     font-size: 20px;
     font-family: "Kulim Park";
@@ -24,21 +24,21 @@ body{
     border: 2px solid rgb(255, 255, 255);
     color: rgb(255, 255, 255);
 }
-#boton1, #boton2, #boton3, #boton4, #boton5{
+#boton1, #boton2, #boton3, #boton4, #boton5 {
     text-align: center;
     font-size: 20px;
     border: 2px solid rgb(255, 255, 255);
     color: rgb(255, 255, 255);
     background-color:transparent;
 }
-#boton1:active, #boton2:active, #boton3:active, #boton4:active, #boton5:active{
+#boton1:active, #boton2:active, #boton3:active, #boton4:active, #boton5:active {
     text-align: center;
     font-size: 20px;
     border: 2px solid rgb(255, 255, 255);
     color: transparent;
     background-color:rgb(255, 255, 255)
 }
-#tablacarro{
+#tablacarro {
     text-align: center;
     font-size: 20px;
     font-family: "Kulim Park";
@@ -48,7 +48,7 @@ body{
     border: 2px solid rgb(255, 255, 255);
     color: rgb(255, 255, 255);
 }
-#resultado{
+#resultado {
     text-align: center;
     font-size: 20px;
     font-family: "Kulim Park";
