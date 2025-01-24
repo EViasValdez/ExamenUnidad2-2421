@@ -49,7 +49,7 @@ function Agrecarro4() {
     }
 }
 
-function calcular() {
+function Calcular() {
     let uno = document.getElementById("uno");
     let monitorValue = parseInt(uno.innerHTML);
 
