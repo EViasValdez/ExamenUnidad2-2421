@@ -1,7 +1,7 @@
 var total = [];
 ////////////////
 // Aqui van las funciones //
-function Agrecarro1() {
+function AgreCarro1() {
     var botonElement = document.getElementById("boton1");
     var pElement = document.getElementById("uno");
     var contador = 0;
@@ -13,7 +13,7 @@ function Agrecarro1() {
     }
 }
 
-function Agrecarro2() {
+function AgreCarro2() {
     var botonElement = document.getElementById("boton2");
     var pElement = document.getElementById("uno");
     var contador = 0;
@@ -25,7 +25,7 @@ function Agrecarro2() {
     }
 }
 
-function Agrecarro3(){
+function AgreCarro3(){
     var botonElement = document.getElementById("boton3");
     var pElement = document.getElementById("dos");
     var contador = 0;
@@ -37,7 +37,7 @@ function Agrecarro3(){
     }
 }
 
-function Agrecarro4() {
+function AgreCarro4() {
     var botonElement = document.getElementById("boton4");
     var pElement = document.getElementById("dos");
     var contador = 0;
