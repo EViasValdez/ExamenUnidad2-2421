@@ -2,7 +2,7 @@ body {
     background: linear-gradient(281deg, rgba(71,15,15,1) 0%, rgba(157,7,7,1) 100%);;
 }
 
-#nombrepag {
+#Nombrepag {
     text-align: center;
     font-size: 82px;
     font-family: "Secular One";
@@ -10,14 +10,14 @@ body {
     color:rgb(255, 255, 255);
 }
 
-#subtitulopag {
+#Subtitulopag {
     text-align: center;
     font-size: 24px;
     font-family: "Kulim Park";
     color:rgb(255, 255, 255);
 }
 
-#tablaproductos {
+#Tablaproductos {
     text-align: center;
     font-size: 20px;
     font-family: "Kulim Park";
@@ -43,7 +43,7 @@ body {
     background-color:rgb(255, 255, 255)
 }
 
-#tablacarro {
+#Tablacarro {
     text-align: center;
     font-size: 20px;
     font-family: "Kulim Park";
@@ -54,7 +54,7 @@ body {
     color: rgb(255, 255, 255);
 }
 
-#resultado {
+#Resultado {
     text-align: center;
     font-size: 20px;
     font-family: "Kulim Park";
