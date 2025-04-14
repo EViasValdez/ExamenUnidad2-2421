@@ -25,7 +25,7 @@ function AgreCarro2() {
     }
 }
 
-function AgreCarro3(){
+function AgreCarro3() {
     var botonElement = document.getElementById("boton3");
     var pElement = document.getElementById("dos");
     var contador = 0;
