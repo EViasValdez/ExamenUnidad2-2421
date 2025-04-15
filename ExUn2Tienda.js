@@ -50,7 +50,7 @@ function AgreCarro4() {
 }
 
 function Calcular() {
-    let uno = document.getElementById("uno");
+    let Uno = document.getElementById("uno");
     let monitorValue = parseInt(uno.innerHTML);
 
     let Dos = document.getElementById("Dos");
