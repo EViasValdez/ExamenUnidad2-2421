@@ -8,6 +8,7 @@ function AgreCarro1() {
     BotonElement.onclick = function () {
         Contador++;
         PElement.textContent = Contador;
+        
         var Los3 = parseInt(document.getElementById('numero1').value);
         total.push(Los3);
     }
@@ -17,10 +18,12 @@ function AgreCarro2() {
     var BotonElement = document.getElementById("boton2");
     var PElement = document.getElementById("uno");
     var Contador = 0;
+    
     BotonElement.onclick = function () {
         Contador++;
         PElement.textContent = Contador;
         var Los3 = parseInt(document.getElementById('numero2').value);
+        
         total.push(Los3);
     }
 }
@@ -29,6 +32,7 @@ function AgreCarro3() {
     var BotonElement = document.getElementById("boton3");
     var PElement = document.getElementById("Dos");
     var Contador = 0;
+    
     BotonElement.onclick = function () {
         Contador++;
         PElement.textContent = Contador;
@@ -41,10 +45,12 @@ function AgreCarro4() {
     var BotonElement = document.getElementById("boton4");
     var PElement = document.getElementById("dos");
     var Contador = 0;
+    
     BotonElement.onclick = function () {
         Contador++;
         PElement.textContent = Contador;
         var Los3 = parseInt(document.getElementById('numero4').value);
+        
         total.push(Los3);
     }
 }
