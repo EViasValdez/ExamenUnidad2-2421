@@ -58,12 +58,12 @@ function AgreCarro4() {
 function Calcular() {
     let Uno = document.getElementById("uno");
     let monitorValue = parseInt(uno.innerHTML);
-
+    
     let Dos = document.getElementById("Dos");
     var DosValue = parseInt(Dos.innerHTML);
     
     let Sum = 0;
-
+    
     for (let index = 0; index < total.length; index++) {
         Sum += total[index];
     }
