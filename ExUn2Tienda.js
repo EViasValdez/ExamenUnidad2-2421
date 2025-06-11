@@ -1,6 +1,6 @@
 var total = [];
 ////////////////
-// Aqui van las funciones //
+// Aqui van las funciones. //
 function AgreCarro1() {
     var BotonElement = document.getElementById("boton1");
     var PElement = document.getElementById("uno");
